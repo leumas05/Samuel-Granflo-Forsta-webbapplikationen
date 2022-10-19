@@ -1,0 +1,16 @@
+/*Detta sätter positionen på mitt spel från itch.io samt aderar en svart och rundad boarder runt widgeten.*/
+#spel{
+    float: left;
+    border: 5px solid black;
+    position: relative; left: 4%; top:50px;
+    border-radius: 10px;
+}
+
+/*Detta sätter storleken och positionen på twitter widgeten samt sätter en svart och rundad boarder runt den.*/
+.twitter-timeline {
+    width: 40%;
+    position: relative; right: -15%; top:50px;
+    border: 8px solid black;
+    border-radius: 18px;
+    border-width: 110%;
+}

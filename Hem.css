@@ -1,0 +1,24 @@
+/*Detta gör så att texten på hemsidan ligger till vänster. Samt sätter den exakta positionen var den ska vara. Den säger också hur mycket av skörmen textrutan ska ta upp.
+Den sätter att texten ska vara i mitten och att det ska vara en svart avrundad boarder runt textrutan.*/
+#text {
+    float: left;
+    width: 40%;
+    background-color: white;
+    border: 5px solid black;
+    position: relative; left: 4%; top:60px;
+    border-radius: 30px;
+    text-align:center;
+}
+
+/*Detta gör så att bilden på hemsidan ligger till höger. Samt sätter den exakta positionen var den ska vara.
+Sen lägger jag till en svart boarder runt med specifik höjd och avrundning vid kanterna.*/
+#bild{
+    float: right;
+    position: relative; right: 15%; top: 60px;
+    border: 5px solid black;
+    height: 464px;
+    border-radius: 5px;
+}
+
+
+

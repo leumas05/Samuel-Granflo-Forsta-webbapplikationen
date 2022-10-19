@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<htmL lang="sv"> 
+
+<!--I head så länkar jag till dom 2 css jag har. style.css är till för header'n och nav'en  som alla mina sidor och Dunder-Sida.css är till för just denna sida.
+    Dunder-Sida.css är till för det som är specefikt för denna sida. Jag ändrar även titlen på sidan är och ändrar iconen på sidan.-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Dunder-Sida.css">
+    <title>Dunder Sida</title>
+    <link rel="icon" type="image/x-icon" href="Bilder\Plains_Grass_Block.webp">
+</head>
+<body>
+    
+    <!--Detta är bilden som är högst upp på hemsidan och den länkar tillbaka till sig själv. Den har id MC så att jag ska kunna ändra på specifikt den i css.-->
+    <header>
+        <a href="index.html"><img src="Bilder\minecraft_PNG42.png" alt="MC" id="MC"></header></a>
+    </header>
+
+    <!--Detta är navigatorn på sidan. Den använder flexbox för jag kopierade min gamla kod o det funkade dunder. Varända text länkar till något annat.
+        Den första länken länkar tillbaks till första sidan "hem". Den andre länkar till andra sidan "Dunder Sida". Den trejde "Minecraft" länkar till minecraft.net. Och den sista "Om" länkar till rick roll på youtube.-->
+    <nav class="flex-container">
+        <section class="flex-container">
+            <a href="index.html"><div>Hem</div></a>
+            <a href="Dunder-Sida.html"><div>Dunder Sida</div></a>
+            <a href="https://www.minecraft.net"><div>Minecraft</div></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div>Om</div></a>
+        </section>
+    </nav>
+
+    <!--Detta är en widget till ett av mina gamla spel som jag laddade upp på itch.io. Det är en färdig widget från itch.io som jag kopierade in.-->
+    <article>
+        <iframe id="spel" frameborder="0" src="https://itch.io/embed-upload/4101009?color=333333" allowfullscreen="" width="640" height="380"><a href="https://leumas05.itch.io/elias-ar-super-mario-v2">Play Elias Är Super Mario V2 on itch.io</a></iframe>
+    </article>
+
+    <!--Detta är en widget till min twitter. Det är en färdig widget som jag kopierade från twitter.-->
+    <aside>
+        <a class="twitter-timeline" data-height="800" data-theme="light" href="https://twitter.com/S4mYT?ref_src=twsrc%5Etfw">Tweets by S4mYT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </aside>
+</body>
+</htmL>

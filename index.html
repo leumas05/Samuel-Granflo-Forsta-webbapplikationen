@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<htmL lang="sv"> 
+
+<!--I head så länkar jag till dom 2 css jag har. style.css är till för header'n och nav'en som alla mina sidor och Hem.css är till för just denna sida.
+    Hem.css är till för det som är specefikt för denna sida. Jag ändrar även titlen på sidan är och ändrar iconen på sidan.-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Hem.css">
+    <title>Hem</title>
+    <link rel="icon" type="image/x-icon" href="Bilder\Plains_Grass_Block.webp">
+</head>
+
+<body>
+
+    <!--Detta är bilden som är högst upp på hemsidan och den länkar tillbaka till sig själv. Den har id MC så att jag ska kunna ändra på specifikt den i css.-->
+    <header>
+        <a href="index.html"><img src="Bilder\minecraft_PNG42.png" alt="MC" id="MC"></header></a>
+    </header>
+
+    <!--Detta är navigatorn på sidan. Den använder flexbox för jag kopierade min gamla kod o det funkade dunder. Varända text länkar till något annat.
+    Den första länken länkar tillbaks till första sidan "hem". Den andre länkar till andra sidan "Dunder Sida". Den trejde "Minecraft" länkar till minecraft.net. Och den sista "Om" länkar till rick roll på youtube.-->
+    <nav class="flex-container">
+        <section class="flex-container">
+            <a href="index.html"><div>Hem</div></a>
+            <a href="Dunder-Sida.html"><div>Dunder Sida</div></a>
+            <a href="https://www.minecraft.net"><div>Minecraft</div></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div>Om</div></a>
+        </section>
+    </nav>
+
+    <!--Detta är texten på som står till vänster på sidan. I exemplet är är det Lorem Ipsum-->
+    <article id="text">
+        <p>Minecraft är ju ett dunder spel. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae augue sed ante porttitor luctus sodales sit amet felis. Donec mattis dignissim maximus. Nullam maximus iaculis nisi non consectetur. Aenean quis iaculis nisl, eu lacinia mi. Morbi volutpat convallis magna, vitae posuere nisl elementum in. Donec nec fermentum est, ut accumsan nulla. Nulla ultrices sit amet diam id vestibulum.
+            Praesent in mi odio. Maecenas a ligula id augue tempor faucibus. Quisque pretium diam a tellus tempor, sit amet ullamcorper eros tempus. Vestibulum eget nulla et orci suscipit elementum. Proin suscipit vitae ipsum id condimentum. Integer ultrices lorem quis lectus porttitor facilisis. Vivamus id tortor et elit volutpat laoreet a ut ex. Mauris sed elementum dolor. Nullam vel sem lectus. 
+            Aenean ut venenatis dolor, eu egestas orci. In vel blandit risus. In dapibus luctus justo, sit amet sagittis mauris accumsan vel. Nunc et tortor enim. Mauris et nunc sed odio consectetur sagittis eu at sapien. Fusce tristique mi eget ligula ornare, id malesuada nunc ornare. Mauris tempus rutrum enim dictum ullamcorper. Proin sed lectus elit. Mauris eleifend ante dui, vitae tristique metus pharetra at. Nunc justo turpis, ornare at accumsan sit amet, tempor at nulla. Etiam non condimentum odio. Vivamus vestibulum aliquam magna. Nunc laoreet, ipsum vel gravida facilisis, metus nulla scelerisque metus, et dapibus sem eros ut libero. Sed ut congue risus, ac mollis sapien. Fusce id nisl placerat est tristique iaculis sed a velit. Nam tempor, sem sed sollicitudin porta, felis nisl egestas diam, elementum semper mi sem ac orci.
+            Morbi ac bibendum eros. Fusce vulputate metus ipsum, eget euismod eros ultricies sit amet. Vestibulum ut turpis vehicula, tempor mi hendrerit, condimentum quam. Vivamus pellentesque lorem nec lorem mollis, at consequat purus volutpat. Aliquam et rhoncus ipsum, et mattis eros. Sed a ante in velit laoreet posuere. Phasellus sem quam, venenatis eget mi eget, vestibulum convallis est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet metus turpis, in feugiat ipsum fermentum et. Cras at vestibulum libero.            
+            Suspendisse vitae nisl rutrum, porttitor diam nec, volutpat elit. Maecenas mi est, aliquet elementum leo semper, efficitur pellentesque eros. Morbi semper sem a nulla blandit, porta luctus urna feugiat. Ut scelerisque tristique mollis. In porta est a tellus vestibulum viverra. Cras fringilla non tortor vitae euismod. Sed quis facilisis quam. Etiam in ante at urna aliquet porta hendrerit et augue. Suspendisse tempor nulla nibh, a convallis ligula fringilla vel. Sed a eros eget mauris aliquet fermentum. Nullam a fringilla augue. Donec non sem tortor. Nulla facilisi. Mauris a gravida tellus, ut luctus enim. Integer pharetra vel felis eget suscipit. Nullam a nibh vestibulum, auctor diam sed, dapibus arcu.
+        </p>
+    </article>
+
+    <!--Detta är bilden till höger på sidan. Den läkar även till fler bilder på minecraft-->
+    <aside id="bild">
+        <a href="https://www.google.com/search?q=minecraft&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjllMqS0qr6AhVq-ioKHcJPCtQQ_AUoAXoECAIQAw&biw=1536&bih=746&dpr=1.25&safe=active&ssui=on#imgrc=j7niWYhPOm3ewM"><img src="Bilder\Games_Subnav_Minecraft-300x465.jpg" alt="LOGO"></a>
+    </aside>
+</body>
+</htmL>
+
